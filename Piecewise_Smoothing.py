@@ -21,8 +21,6 @@ def find_continuous_sections(A):
             
     return good_indices
 
-#this keeps causing me problems because of compression of nan-spaces. Need to consider whether to keep dealing with that or change this code somehow. 
-
 def return_smoothed(A,pf):
     conts = find_continuous_sections(A)
     smoothed = []
